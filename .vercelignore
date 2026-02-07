@@ -1,0 +1,7 @@
+downloads/*
+downloads/
+*.exe
+.env.local
+served.html
+node_modules/
+/*.log
