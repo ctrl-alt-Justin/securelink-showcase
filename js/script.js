@@ -47,7 +47,7 @@
   }
 
   // Smooth scroll for internal links
-  document.querySelectorAll('a[href^="#"]').forEach(a => {
+  document.querySelectorAll('a[href^="#"]:not(.download-asset)').forEach(a => {
     a.addEventListener('click', (e) => {
       const href = a.getAttribute('href');
       if (href.length > 1) {
