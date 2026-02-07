@@ -86,3 +86,17 @@
   });
 })();
 
+// Set download links to GitHub Release asset if configured
+(function(){
+  const meta = document.querySelector('meta[name="github-release-download"]');
+  const releaseUrl = meta ? meta.getAttribute('content') : null;
+  document.querySelectorAll('a.download-asset').forEach(a => {
+    const fallback = a.getAttribute('data-fallback');
+    if (releaseUrl && !releaseUrl.includes('OWNER/REPO')) {
+      a.setAttribute('href', releaseUrl);
+    } else if (fallback) {
+      a.setAttribute('href', fallback);
+    }
+  });
+})();
+
