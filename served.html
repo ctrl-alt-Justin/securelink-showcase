@@ -1,0 +1,121 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>SecureLink</title>
+  <meta name="github-release-download" content="https://github.com/ctrl-alt-Justin/securelink-showcase/releases/latest/download/SecureLink_Setup.exe">
+  <link rel="stylesheet" href="css/styles.v2.css">
+</head>
+<body>
+  <div class="dynamic-bg" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container header-grid">
+      <a class="logo" href="#">SecureLink</a>
+      <nav class="nav">
+        <a href="#features">Features</a>
+        <a href="#tech">Technology</a>
+        <a href="#privacy">Privacy</a>
+        <a class="cta download-asset" href="https://github.com/ctrl-alt-Justin/securelink-showcase/releases/latest/download/SecureLink_Setup.exe" data-fallback="/downloads/SecureLink_Setup.exe" download>Download</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>SecureLink â Real-time Bullying Detection</h1>
+          <p class="lead">A discreet, NLP-powered smart badge and desktop application that detects and prevents bullying in real time. Uses DistilBERT-based models and audio analysis to generate a validated Bullying Score so users and professionals can act quickly.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary download-asset" href="https://github.com/ctrl-alt-Justin/securelink-showcase/releases/latest/download/SecureLink_Setup.exe" data-fallback="/downloads/SecureLink_Setup.exe" download>Download App</a>
+            <a class="btn btn-ghost" href="#features">How it Works</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" id="device">
+          <img src="SecureLink%20(1).png" alt="SecureLink product" class="device-img">
+          <div class="device-reflection"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="container">
+        <h2>How SecureLink Helps</h2>
+        <div class="cards">
+          <article class="card">
+            <div class="icon">ð§</div>
+            <h3>Continuous Audio Monitoring</h3>
+            <p>Continuously listens for triggers and analyzes spoken Filipino/Tagalog speech to detect harassment or threats.</p>
+          </article>
+          <article class="card">
+            <div class="icon">ð§ </div>
+            <h3>DistilBERT NLP</h3>
+            <p>Lightweight, fine-tuned DistilBERT models provide contextual understanding while remaining efficient.</p>
+          </article>
+          <article class="card">
+            <div class="icon">ð</div>
+            <h3>Bullying Score & Alerts</h3>
+            <p>Generates a personalized Bullying Score validated by professionals and supports escalation to psychologists or medical staff.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="tech" id="tech">
+      <div class="container specs-grid">
+        <div>
+          <h2>Technology</h2>
+          <ul>
+            <li>Model: DistilBERT-based classifiers tuned for Filipino/Tagalog</li>
+            <li>Audio: Real-time feature extraction and trigger-based analysis</li>
+            <li>Processing: On-device where possible; encrypted reporting when needed</li>
+            <li>Desktop App: SecureLink built with WPF on .NET 10</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Application</h2>
+          <p>SecureLink monitors voice in real time and classifies incidents for review. The system focuses on accuracy by supporting one primary language and filtering casual conversations.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="privacy" id="privacy">
+      <div class="container">
+        <h2>Privacy & Safety</h2>
+        <p class="muted">Privacy-first design: audio is processed locally when possible, sensitive data is minimized, and any transmitted incident reports are encrypted. Human review is required before any intervention.</p>
+      </div>
+    </section>
+
+    <!-- Technical specs removed as requested -->
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Â© 2026 SecureLink. Privacy-first bullying prevention.</p>
+    </div>
+  </footer>
+
+  <!-- Download Modal -->
+  <div id="downloadModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="download-title" hidden>
+    <div class="modal-backdrop" data-dismiss="modal"></div>
+    <div class="modal-panel" role="document">
+      <button class="modal-close" aria-label="Close modal">â</button>
+      <h2 id="download-title">Download SecureLink App</h2>
+      <p class="muted">SecureLink desktop app (WPF) works on Windows. Choose your installer below. For enterprise deployments, contact us.</p>
+      <div class="modal-actions">
+        <a class="btn btn-primary download-asset" href="https://github.com/ctrl-alt-Justin/securelink-showcase/releases/latest/download/SecureLink_Setup.exe" data-fallback="/downloads/SecureLink_Setup.exe" download>Download for Windows (.exe)</a>
+        <a class="btn btn-ghost" href="#">Enterprise / Contact</a>
+      </div>
+      <div class="modal-footer muted">Small installer; the app runs on .NET 10 (WPF). This is a demo download.</div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
+
