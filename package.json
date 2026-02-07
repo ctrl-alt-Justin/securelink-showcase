@@ -1,0 +1,11 @@
+{
+  "name": "triple-a-showcase",
+  "version": "1.0.0",
+  "description": "Minimal dark product showcase",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}
